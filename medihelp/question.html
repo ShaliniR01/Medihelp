@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <title>MEDIHELP</title>
+    <link rel="stylesheet" href="question.css">
+<body>
+  <form method="POST" action="question.php">
+<div class="bg-img"></div>
+<div class="login">
+<h2>REMEDIES AND CURE</h2>
+
+<p>Tell your symptoms</p>
+  <p><label for="symptom">What is your symptom?</label><p></p>
+  <select id="symptom" name="symptom">
+    <option value="fever">Fever</option>
+    <option value="cold">Cold</option>
+    <option value="cough">Cough</option>
+    <option value="headache">Headache</option>
+    <option value="stomachpain">Stomachpain</option>
+    <option value="bodypain">Bodypain</option>
+  </select>
+  <p><label for="period">How long do you have?</label></p>
+  <select id="period" name="period">
+    <option value="12days">1-2 days</option>
+    <option value="35days">3-5 days</option>
+    <option value="1week">1 week</option>
+    <option value="moreone">More than a week</option>
+  </select>
+  <p><label for="travel">Did you travel anywhere?</label></p>
+  <select id="travel" name="travel">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+    </select>
+    <p><label for="tperiod">How long do you travel?</label></p>
+    <select id="tperiod" name="tperiod">
+        <option value="0days">Not travelled</option>
+      <option value="12days">1-2 days</option>
+      <option value="35days">3-5 days</option>
+      <option value="1week">1 week</option>
+      <option value="moreone">More than a week</option>
+    </select>
+  <input type="submit">
+</form>
+</div>
+</body>
+</html>

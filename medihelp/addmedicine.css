@@ -1,0 +1,262 @@
+body{
+    margin:0;
+    padding:0;
+    background: #dce7ff;
+    background-position:center;
+    background-size:cover;
+  }
+  .h1{
+    text-align:center;
+  }
+  .login{
+    border-radius:25px;
+    width: 350px;
+position: absolute;
+top: 18%;
+left:59%;
+background: whitesmoke;
+color: black;
+background-size:cover;
+padding:40px 30px;
+
+  }
+  .login1{
+    border-radius:25px;
+    width: 380px;
+position: absolute;
+top: 9%;
+left:59%;
+background: whitesmoke;
+color: black;
+background-size:cover;
+padding:30px 30px;
+
+  }
+  .update{
+    border-radius:25px;
+    width: 380px;
+position: absolute;
+top: 170px;
+left:59%;
+background: whitesmoke;
+color: black;
+background-size:cover;
+padding:40px 30px;
+
+  }
+  .p{
+    font-size:15;
+  }
+  input[type=email],input[type=password],input[type=text]{
+    width:100%;
+    height:54px;
+    padding:10px 40px;
+    border:none;
+    outline: 0;
+    background: #DFECFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius:5px;
+    margin:15px 0;
+  }
+  input[type=submit],input[type=button]{
+    width:100%;
+    text-align: center;
+    background: #00B0FF;
+    border: 1px solid #727A9C;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding:10px;
+    border-radius:5px;
+    margin:20px 0;
+    font-size:20;
+    cursor:pointer;
+  }
+  .button{
+    left:340px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .abc{
+    text-align:center;
+    font-size: 25;
+    font-family:'Segoe UI';
+    color:rgb(13, 13, 122);
+  }
+  .bg-img {
+    /* The image used */
+    background-image: url("medicine.svg");
+    align-items: center;
+    position: absolute;
+    width: 598px;
+    height: 527px;
+    left: 40px;
+    top: 150px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .bgimg {
+    /* The image used */
+    background-image: url("hospitals.svg");
+    align-items: center;
+    position: absolute;
+    width: 598px;
+    height: 427px;
+    left: 40px;
+    top: 150px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .ubgimg {
+    /* The image used */
+    background-image: url("update.svg");
+    align-items: center;
+    position: absolute;
+    width: 588px;
+    height: 527px;
+    left: 40px;
+    top: 150px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .locimg {
+    /* The image used */
+    background-image: url("location.svg");
+    align-items: center;
+    position: absolute;
+    width: 599px;
+    height: 467px;
+    left: 40px;
+    top: 150px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .rateimg {
+    /* The image used */
+    background-image: url("rating.svg");
+    align-items: center;
+    position: absolute;
+    width: 557px;
+    height: 387px;
+    left: 50px;
+    top: 180px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .phnimg {
+    /* The image used */
+    background-image: url("phn.svg");
+    align-items: center;
+    position: absolute;
+    width: 557px;
+    height: 387px;
+    left: 50px;
+    top: 180px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .link{
+    text-align: center;
+    padding:30px;
+    margin:70px;
+    font-size:30;
+    cursor:pointer;
+    line-height: 2.8;
+  }
+  .bg-clr {
+    position: absolute;
+    width: 700px;
+    height: 100%;
+    left:0;
+    background-size:cover;
+    background: rgb(164, 222, 241);
+    border-radius: 0px 0px 0px 0px;
+  }
+  .login .home{
+    position:absolute;
+    left:40px;
+    top:113px;
+    color:darkblue;
+    transform: translateY(-50%);
+  }
+  .login .icon{
+    position:absolute;
+    left:40px;
+    top:169px;
+    color:darkblue;
+    transform: translateY(-50%);
+  }
+.login .icon1{
+    position:absolute;
+    left:40px;
+    top:252px;
+    color:darkblue;
+    transform: translateY(-50%);
+  }
+  .login .icon2{
+    position:absolute;
+    left:40px;
+    top:336px;
+    color:darkblue;
+    transform: translateY(-50%);
+  }
+.icon{
+    position:absolute;
+    left:40px;
+    top:159px;
+    color:darkblue;
+    transform: translateY(-50%);
+  }
+.icon1{
+    position:absolute;
+    left:40px;
+    top:242px;
+    color:darkblue;
+    transform: translateY(-50%);
+  }
+.icon2{
+    position:absolute;
+    left:40px;
+    top:326px;
+    color:darkblue;
+    transform: translateY(-50%);
+  }
+  .icon3{
+    position:absolute;
+    left:40px;
+    top:410px;
+    color:darkblue;
+    transform: translateY(-50%);
+  }
+  .icon4{
+    position:absolute;
+    left:40px;
+    top:495px;
+    color:darkblue;
+    transform: translateY(-50%);
+  }
